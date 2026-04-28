@@ -1,5 +1,17 @@
-# Apocalypse Simulation
+# Voronezh City Simulator
 
-This repository contains a simple text-based apocalypse simulation.
-Run `python3 apocalypse_simulation.py` and follow the prompts to choose and control a scenario.
+Небольшой GUI-симулятор развития города на примере Воронежа.
 
+## Что есть в симуляторе
+
+- Слева: основные показатели города (ход, бюджет, население, счастье, экология) и панель управления строительством.
+- Справа: схема города (дороги, жилые кварталы, промышленные зоны и парки), по которой можно кликать и строить.
+- Пошаговая экономика: доходы/расходы, рост населения, случайные городские события.
+
+## Запуск
+
+```bash
+python3 apocalypse_simulation.py
+```
+
+> Требуется стандартный `tkinter` (обычно уже входит в Python).
